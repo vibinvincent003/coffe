@@ -1,0 +1,607 @@
+*{
+
+    top: 0px;
+    margin: 0px;
+    
+}
+.div1 img{
+    width: 110px;
+    height: 120px;
+    padding: 10px;
+}
+.div1{
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 153, 60);
+    width: 101%;
+    height: 120px;
+    margin-left: -9px;
+    margin-top: -8px;
+    
+
+}
+.div1 h1{
+font-family: Black Ops One;
+font-size: 750%;
+color: black;
+margin-top: -10px;
+text-shadow: 4px 4px 2px black;
+
+}
+.div2{
+    position: sticky;
+}
+.div2 h4{
+    display: flex;
+    justify-content: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(220, 153, 60);
+    position: sticky;
+    height: 25px;
+    margin-top: 0px;
+    margin-left: -9px;
+    width: 101%;
+
+}
+#section1{
+    height: 450px;
+    background-color: rgb(236, 208,118);
+    margin-left: -9px;
+    width: 101%;
+
+
+
+}
+.row h1{
+    font-size: 40px;
+    padding: 30px;
+    font-family: Lato;
+    font-weight: 200;
+
+}
+
+.col1 h6{
+    border: 2px ridge black;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    margin: 0px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+#section2{
+    height: 700px;
+    background-color: rgb(236, 208,118);
+    width: 100.6%;
+}
+.types h1{
+
+    text-align: center;
+    font-family: Shadows Into Light Two;
+    font-size: 50px;
+    text-shadow: 5px 5px 7px black;
+
+}
+#content{
+    font-size: x-large;
+    font-weight: bold;
+    padding: 30px;
+}
+ul{
+    font-size: 25px;
+}
+#section3{
+    height: 1500px;
+    background-color: rgb(236, 208,118);
+    width: 100.7%;
+
+
+}
+.brands h1{
+    text-align: center;
+    font-family: Shadows Into Light Two;
+    font-size: 50px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 7px black;
+  
+}
+.star img{
+
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+    margin-top: 60px;
+    
+}
+.para{
+margin-left: 400px;
+font-size: 20px;
+margin-top: -180px;
+width: 1200px;
+height: 100px;
+}
+.star2 img{
+    margin-left: 1540px;
+    border-radius: 20px;
+    margin-top: 70px;
+    width: 300px;
+    height: 250px;
+}
+.para2{
+justify-items: center;
+width: 1200px;
+height: 100px;
+margin-top: -180px;
+    font-size: 20px;
+    margin-left: 270px;
+}
+.star img:hover{
+    box-shadow: 10px 10px 5px lightblue;
+}
+.star2 img:hover{
+    box-shadow: 10px 10px 5px lightblue;
+}
+#gallery{
+    width: 100.7%;
+    height: 1200px;
+    background-color: rgb(236, 208,118);
+
+}
+.photos{
+
+    width: 1300px;
+    height: 1100px;
+    background-color: rgb(220, 153, 60);
+    margin-left: 270px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+.photos h1{
+    padding: 40px;
+    font-family: Shadows Into Light Two;
+    font-size: 50px;
+    text-shadow: 5px 5px 7px black;
+}
+.pp1 img{
+width: 330px;
+height: 250px;
+padding: 30px;
+border-radius: 20%;
+padding-right: 30px;
+        
+}
+.pp1 img:hover{
+transition-duration: 09.s;
+}
+#que{
+width: 100.7%;
+height: 900px;
+background-color: rgb(236, 208,118);
+
+}
+.fill{
+
+    width: 1000px;
+    height: 400px;
+    background-color: rgb(220, 153, 60);
+    border-radius: 30px;
+    border: solid black;
+    
+}
+#que h1{
+    padding: 40px;
+    font-family: Shadows Into Light Two;
+    font-size: 50px;
+    text-shadow: 5px 5px 7px black;
+}
+form {
+
+
+    margin: 30px;
+    border: 3pxcsolid black;
+    border-radius: 10px;
+    height: 330px;
+    padding: 40px;
+    font-size: 19px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.email{
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.input{
+    border-radius: 5px;
+    border: 5px solid black;
+}
+button{
+    font-family: Shadows Into Light Two;
+    color: black;
+    font-weight: 80px;
+    font-size: 30px;
+    margin: 20px;
+    width: 80px;
+    height: 50px;
+    border-radius: 5px;
+    text-align: center;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+button:hover{
+    background-color: rgb(236, 208,118);
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+label{
+    width: 900px;
+    margin-left: -400px;
+}
+.foot{
+
+    width: 100.7%;
+    height: 400px;
+background-color: rgb(220, 153, 60);
+}
+.fimg{
+
+    margin-left: 40px;
+}
+.fimg img{
+    margin-top: 40px;
+}
+.fimg2{
+    margin-top: -290px;
+}
+.fimg2 h1{
+    padding: 40px;
+    font-family: Shadows Into Light Two;
+    font-size: 50px;
+    text-shadow: 5px 5px 7px black;
+}
+.socail{
+    margin: 3px;
+
+    
+}
+#copy{
+    font-size: x-large;
+}
+.add{
+    margin-left: 1500px;
+    margin-top: -270px;
+    
+}
+.add h1{
+    padding: 25px;
+    font-family: Shadows Into Light Two;
+    font-size: 50px;
+    text-shadow: 5px 5px 7px black;
+}
+.add p{
+    font-size: x-large;
+}
+.add a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.add a:hover{
+    color: aquamarine;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (max-width: 400px){
+
+    .div1 h1{
+        font-family: Black Ops One;
+        font-size: 30px;
+        color: black;
+        margin-top: 30px;
+        text-shadow: 2px 2px 1px black;
+        
+        }
+
+        .div1 img{
+            width: 70px;
+            height: 70px;
+            padding: 10px;
+        }
+
+        .div1{
+
+            display: flex;
+            justify-content: center;
+            background-color: rgb(220, 153, 60);
+            width: 101%;
+            height: 80px;
+            margin-left: -9px;
+            margin-top: -8px;
+            
+        
+        }
+        .row h1{
+            font-size: 20px;
+            padding: 30px;
+            font-family: Lato;
+            font-weight: 200;
+        
+        }
+        
+        .col1 h6{
+            border: 2px ridge black;
+            padding: 50px;
+            font-size: 10px;
+            font-weight: 900;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 20px;
+            margin: 0px;
+            margin-left: 40px;
+            margin-right: 300px;
+            width: 200px;
+        
+        }
+
+        #section2{
+            height: 1290px;
+            background-color: rgb(236, 208,118);
+            width: 98.7%;
+        }
+
+.types h1{
+
+    text-align: center;
+    font-family: Shadows Into Light Two;
+    font-size: 35px;
+    text-shadow: 5px 5px 7px black;
+
+}
+#content{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+ul{
+    font-size: 18px;
+    margin-left: -10px;
+}
+#section3{
+    height: 850px;
+    background-color: rgb(236, 208,118);
+    width: 98.7%;
+}
+.brands h1{
+    text-align: center;
+    font-family: Shadows Into Light Two;
+    font-size: 35px;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-shadow: 5px 5px 7px black;
+  
+}
+.star img{
+
+    margin-left: -2px;
+    border-radius: 20px;
+    width: 150px;
+    height: 120px;
+    margin-top: 50px;
+    margin-left: 4px;
+    
+}
+
+.para{
+    margin-left: 190px;
+    font-size: 10px;
+    margin-top: -120px;
+    width: 200px;
+    height: 60px;
+    
+    }
+    .para2{
+        justify-items: center;
+        width: 200px;
+        height: 50px;
+        margin-top: -150px;
+            font-size: 10px;
+            margin-left: -18px;
+            padding: 30px;
+        }
+        .star2 img{
+            margin-left: 240px;
+            border-radius: 20px;
+            margin-top: 70px;
+            width: 150px;
+            height: 120px;
+        }
+        #gallery{
+            width: 10%;
+            height: 1200px;
+            background-color:  rgb(236, 208,118);
+        width: 395px;
+
+        }
+        .photos{
+
+            width: 350px;
+            height: 1100px;
+            background-color: rgb(220, 153, 60);
+            margin-left: 20px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 40px;
+            text-align: center;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            
+        
+        }
+        .photos h1{
+            padding: 40px;
+            font-family: Shadows Into Light Two;
+            font-size: 35px;
+            text-shadow: 5px 5px 7px black;
+        }
+        .pp1 img{
+            width: 112px;
+            height: 120px;
+            padding: 30px;
+            border-radius: 20%;
+            padding-right: 30px;
+                    
+            }
+            .fill{
+
+                width: 1000px;
+                height: 400px;
+                background-color: rgb(220, 153, 60);
+                border-radius: 30px;
+                border: solid black;
+                
+                
+            }
+            #que{
+                width: 100%;
+                height: 600px;
+                background-color: rgb(236, 208,118);
+                width: 395px;
+                }
+                .fill{
+
+                    width: 350px;
+                    height: 400px;
+                    background-color: rgb(220, 153, 60);
+                    border-radius: 30px;
+                    border: solid black;
+                    
+                }
+                #que h1{
+                    padding: 40px;
+                    font-family: Shadows Into Light Two;
+                    font-size: 35px;
+                    text-shadow: 5px 5px 7px black;
+                }
+                form {
+
+
+                    margin: 30px;
+                    border: 3pxcsolid black;
+                    border-radius: 10px;
+                    height: 390px;
+                    padding: 40px;
+                    font-size: 19px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    font-weight: 600;
+                    width: 200px;
+                    margin-left: 120px;
+                }
+                .email{
+                    width: 310px;
+                    height: 30px;
+                    border-radius: 5px;
+                    border: 2px solid black;
+                    margin-left: -180px;
+                }
+                .input{
+                    border-radius: 5px;
+                    border: 5px solid black;
+                    
+                }
+            textarea{
+                margin-left: -170px;
+                width: 320px;
+                border: solid;
+                border-radius: 5px;
+            }
+            button{
+                font-family: Shadows Into Light Two;
+                color: black;
+                font-weight: 80px;
+                font-size: 30px;
+                margin: 20px;
+                width: 80px;
+                height: 50px;
+                border-radius: 5px;
+                text-align: center;
+                transition: cubic-bezier(0.19, 1, 0.22, 1);
+                margin-left: -140px;
+            }
+            button:hover{
+                background-color: rgb(236, 208,118);
+                transition: cubic-bezier(0.19, 1, 0.22, 1);
+            }
+            
+            .foot{
+
+                width: 100.7%;
+                height: 400px;
+            background-color: rgb(220, 153, 60);
+            width: 396px;
+            }
+            .fimg img{
+
+                margin-left: -30px;
+                width: 100px;
+                height: 30px;
+            }
+            .foot{
+
+                width: 98.7%;
+                height: 135px;
+            background-color: rgb(220, 153, 60);
+            }
+            .fimg2 h1{
+                padding: 0px;
+                font-family: Shadows Into Light Two;
+                font-size: 20px;
+                text-shadow: 5px 5px 7px black;
+                margin-top: 220px;
+            }
+            .socail{
+                margin: px;
+            width: 2px;
+            height: 14px;
+            inline-size: 20px;
+
+                
+            }
+            #copy{
+                font-size: 10px;
+            }
+            .add{
+                margin-left: 290px;
+                margin-top: -245px;
+                padding: -70px;
+                
+            }
+            .add h1{
+                padding: 25px;
+                font-family: Shadows Into Light Two;
+                font-size: 20px;
+                text-shadow: 5px 5px 7px black;
+                margin-left: -30px;
+                margin-top: 90px;
+            }
+            .add p{
+                font-size: 10px;
+            }
+            .add a{
+                text-decoration: none;
+                font-size: 8px;
+                color: brown;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            .add a:hover{
+                color: aquamarine;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+}
